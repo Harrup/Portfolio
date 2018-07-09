@@ -1,0 +1,103 @@
+.resume{
+  .content-area{
+    width:80%;
+    height: 100%;
+    background: $color3;
+    margin-left: 20%;
+    .scroll-section{
+      padding: 56px;
+      .title{
+        border-bottom: 2px solid $color6;
+        width: 103px;
+        font-size: 2.3rem;
+        font-weight: 400;
+        letter-spacing: 3px;
+        line-height: 1.2;
+        margin: 0 0 2rem 20%;
+      }
+      .row{
+        .skills-panel{
+          .skill-category{
+            border-bottom: 2px solid $color6;
+            padding: 5px;
+          }
+          .skill-list{
+            list-style: none;
+            padding: 0px;
+            font-weight: 300;
+            li{
+              padding-bottom: 3px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 767px) {
+  .resume{
+    .info-section{
+      height: 20%;
+      padding: 54px;
+      position: static;
+
+      .logo{
+        font-size: .8rem;
+        height: 50px;
+        width: 85px;
+        position: absolute;
+        top: 50px;
+        left: 27px;
+      }
+
+      .info-box{
+      display: none;
+      }
+    }
+    .content-area{
+      margin-left: 0;
+      width: 100%;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .resume{
+    .info-section{
+      .logo{
+        left: 22px;
+        position: absolute;
+      }
+      .info-box{
+        left: 0px;
+        padding: 17px;
+        h4{
+          font-size: 1rem;
+        }
+        p{
+            font-size: 0.7rem;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 992px)  {
+  .resume{
+    .info-section{
+      .logo{
+        position: fixed;
+      }
+      .info-box{
+        left: 31px;
+        padding: 25px;
+        h4{
+          font-size: 1.2rem;
+        }
+        p{
+          font-size: 0.9rem;
+        }
+      }
+    }
+  }
+}
