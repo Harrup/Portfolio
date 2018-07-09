@@ -71,6 +71,7 @@
     }
   }
 
+//phones
 @media (max-width: 767px) {
   .portfolio{
     .info-section{
@@ -98,7 +99,7 @@
       .scroll-section{
           padding: 20px;
         .row{
-          height: 560px;
+          height: 632px;
           left: 3%;
           top: 10px;
           padding: 0px 0px 0px 0px;
@@ -113,12 +114,16 @@
             position: absolute;
             top: 280px;
             text-align: center;
+            .primary-btn{
+              margin-bottom: 10px;
+            }
           }
         }
       }
     }
   }
 }
+//tablets
 @media (min-width: 768px) {
   .portfolio{
     .info-section{
@@ -142,7 +147,7 @@
         .row{
           left: 4%;
           width: 96%;
-          height: 43%;
+          height: 670px;
           padding: 25px 0 0 20px;
           .col-md-4{
 
@@ -168,6 +173,7 @@
     }
   }
 }
+//laptops
 @media (min-width: 992px)  {
   .portfolio{
     .info-section{
@@ -190,6 +196,7 @@
         .row{
           // max-width: 900px;
           // height: 300px;
+          left:5%;
           max-width: 950px;
           height: 300px;
           .col-md-7{
@@ -204,6 +211,19 @@
               padding: 7px 18px;
             }
           }
+        }
+      }
+    }
+  }
+}
+
+//large monitors
+@media (min-width: 1200px){
+.portfolio{
+  .content-area{
+    .scroll-section{
+      .row{
+        //left:18%;
         }
       }
     }

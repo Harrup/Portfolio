@@ -161,8 +161,22 @@
           }
         .profile-section{
           max-width: 370px;
-          padding: 15% 0 0 5%;
+          padding: 30% 0 0 5%;
         }
+    }
+  }
+}
+@media (min-width: 1200px){
+  .home{
+    .info-section{
+      max-width: 425px;
+    }
+    .content-area{
+      margin-left: 450px;
+      width: 78%;
+      .profile-section{
+        padding: 250px 0 0 1%;
+      }
     }
   }
 }
