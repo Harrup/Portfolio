@@ -180,6 +180,7 @@
   .contact{
     .info-section{
       .logo {
+        left: 40px;
         display: none;
       }
       .info-box{
@@ -226,12 +227,12 @@
       max-width: 425px;
     }
     .content-area{
+      margin-left: 435px;
+      width: calc(100% - 435px);
       .contact-section{
         position: absolute;
         left: 48%;
       }
-      margin-left: 400px;
-      width: calc(100% - 400px);
       .profile-section{
         padding: 250px 0 0 1%;
       }

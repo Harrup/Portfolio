@@ -174,7 +174,22 @@ module.hot.accept(reloadCSS);
 
 require("../scss/main.scss");
 
-var menu = document.querySelector(".menu-icon").classList.toggle;
+var menu = document.querySelector(".slider-parent");
+//var cross = document.querySelector("#cross");
+var bars = document.querySelector(".fa-bars");
+
+//cross.addEventListener("click", removeMenu);
+bars.addEventListener("click", toggleMenu);
+
+function toggleMenu() {
+  menu.classList.toggle("active");
+  //bars.style.opacity="0";
+}
+
+function removeMenu() {
+  menu.classList.remove("active");
+  //bars.style.opacity="1";
+}
 },{"../scss/main.scss":2}],9:[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -204,7 +219,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '49751' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '53632' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 

@@ -47,6 +47,9 @@
       .info-section .info-box .icon-section .fa:hover {
         color: #E9B200; }
 
+.home .menu-icon {
+  cursor: pointer; }
+
 .home .info-section {
   padding: 56px;
   width: 35%; }
@@ -160,16 +163,16 @@
         height: calc(100% - 112px); }
     .home .content-area .profile-section {
       max-width: 370px;
-      padding: 30% 0 0 5%; } }
+      padding: 22% 0 0 5%; } }
 
 @media (min-width: 1200px) {
   .home .info-section {
     max-width: 425px; }
   .home .content-area {
-    margin-left: 400px;
-    width: calc(100% - 400px); }
+    margin-left: 435px;
+    width: calc(100% - 435px); }
     .home .content-area .profile-section {
-      padding: 250px 0 0 1%; } }
+      padding: 22% 0 0 5%; } }
 
 .resume .content-area {
   width: 80%;
@@ -178,6 +181,8 @@
   margin-left: 20%; }
   .resume .content-area .scroll-section {
     padding: 56px; }
+    .resume .content-area .scroll-section h1 {
+      margin: 56px 0 0.3rem 0; }
     .resume .content-area .scroll-section .title {
       border-bottom: 2px solid #E9B200;
       width: 103px;
@@ -216,7 +221,7 @@
 
 @media (min-width: 768px) {
   .resume .info-section .logo {
-    left: 22px;
+    left: 40px;
     position: absolute; }
   .resume .info-section .info-box {
     left: 0px;
@@ -254,7 +259,7 @@
     font-weight: 400;
     letter-spacing: 3px;
     line-height: 1.2;
-    margin: 56px 0 1rem 0; }
+    margin: 56px 0 0.3rem 0; }
   .portfolio .content-area .scroll-section .row {
     transition: all 0.3s ease-in-out;
     padding: 25px 0 0 20px;
@@ -331,7 +336,7 @@
 
 @media (min-width: 768px) {
   .portfolio .info-section .logo {
-    left: 22px;
+    left: 40px;
     position: absolute; }
   .portfolio .info-section .info-box {
     left: 0px;
@@ -520,6 +525,7 @@
 
 @media (min-width: 768px) {
   .contact .info-section .logo {
+    left: 40px;
     display: none; }
   .contact .info-section .info-box {
     display: none; } }
@@ -549,8 +555,8 @@
   .contact .info-section {
     max-width: 425px; }
   .contact .content-area {
-    margin-left: 400px;
-    width: calc(100% - 400px); }
+    margin-left: 435px;
+    width: calc(100% - 435px); }
     .contact .content-area .contact-section {
       position: absolute;
       left: 48%; }
@@ -568,6 +574,7 @@ html body {
   margin: 0; }
 
 .menu-icon {
+  z-index: 10;
   position: fixed;
   right: 31px;
   top: 31px;
@@ -611,6 +618,7 @@ html body {
     color: #E9B200; }
 
 #slider-container {
+  z-index: 5;
   position: absolute;
   right: 0;
   height: 100%;
@@ -629,6 +637,7 @@ html body {
     pointer-events: none;
     transition: .2s all linear; }
     #slider-container .slider-parent #cross {
+      cursor: pointer;
       color: #fefdfb;
       position: absolute;
       right: 31px;

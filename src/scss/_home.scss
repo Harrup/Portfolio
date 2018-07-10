@@ -1,4 +1,7 @@
 .home{
+  .menu-icon{
+    cursor: pointer;
+  }
   .info-section{
     padding: 56px;
     width:35%;
@@ -161,7 +164,7 @@
           }
         .profile-section{
           max-width: 370px;
-          padding: 30% 0 0 5%;
+          padding: 22% 0 0 5%;
         }
     }
   }
@@ -172,10 +175,10 @@
       max-width: 425px;
     }
     .content-area{
-      margin-left: 400px;
-      width: calc(100% - 400px);
+      margin-left: 435px;
+      width: calc(100% - 435px);
       .profile-section{
-        padding: 250px 0 0 1%;
+        padding: 22% 0 0 5%;
       }
     }
   }

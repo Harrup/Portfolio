@@ -6,6 +6,9 @@
     margin-left: 20%;
     .scroll-section{
       padding: 56px;
+      h1{
+        margin: 56px 0 0.3rem 0;
+      }
       .title{
         border-bottom: 2px solid $color6;
         width: 103px;
@@ -65,7 +68,7 @@
   .resume{
     .info-section{
       .logo{
-        left: 22px;
+        left: 40px;
         position: absolute;
       }
       .info-box{

@@ -16,6 +16,7 @@ html body{
   margin: 0;
 }
 .menu-icon{
+  z-index: 10;
   position: fixed;
   right: 31px;
   top: 31px;
@@ -65,12 +66,14 @@ html body{
 }
 
 #slider-container {
+  z-index: 5;
   position: absolute;
   right: 0;
   height: 100%;
   width: 250px;
   .slider-parent {
     #cross{
+      cursor: pointer;
       color: $color3;
       position: absolute;
       right: 31px;
