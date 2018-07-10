@@ -112,9 +112,9 @@
     .home .info-section .info-box {
       display: none; }
   .home .content-area {
-    width: 100%;
     height: 100%;
-    margin-left: 0; }
+    margin-left: 0;
+    width: 100%; }
     .home .content-area .img-container {
       display: none; }
     .home .content-area .profile-section {
@@ -166,8 +166,8 @@
   .home .info-section {
     max-width: 425px; }
   .home .content-area {
-    margin-left: 450px;
-    width: 78%; }
+    margin-left: 400px;
+    width: calc(100% - 400px); }
     .home .content-area .profile-section {
       padding: 250px 0 0 1%; } }
 
@@ -243,9 +243,10 @@
   background: #fefdfb;
   margin-left: 20%; }
   .portfolio .content-area .scroll-section .heading {
+    margin: 0 auto;
     text-align: center;
     border-bottom: 2px solid #E9B200;
-    width: 103px; }
+    width: 167px; }
   .portfolio .content-area .scroll-section h1 {
     width: 100%;
     text-align: center;
@@ -342,7 +343,7 @@
   .portfolio .content-area .scroll-section .row {
     left: 4%;
     width: 96%;
-    height: 670px;
+    height: 325px;
     padding: 25px 0 0 20px; }
     .portfolio .content-area .scroll-section .row .col-md-7 h1 {
       font-size: 1.5rem; }
@@ -503,17 +504,58 @@
     overflow-y: scroll;
     padding: 0 10px; }
     .contact .content-area .form-container {
+      max-height: 700px;
       width: 100%; }
       .contact .content-area .form-container .form-section {
         width: 100%;
         left: 0px;
         height: auto; }
     .contact .content-area .contact-section {
+      position: absolute;
       width: 100%; }
       .contact .content-area .contact-section .contact-info .contact-box h5 {
         font-size: 1rem; }
       .contact .content-area .contact-section .contact-info .contact-box p {
         font-size: 0.8rem; } }
+
+@media (min-width: 768px) {
+  .contact .info-section .logo {
+    display: none; }
+  .contact .info-section .info-box {
+    display: none; } }
+
+@media (min-width: 992px) {
+  .contact .info-section .logo {
+    display: flex; }
+  .contact .info-section .info-box {
+    display: inline-block; }
+  .contact .content-area {
+    width: 65%;
+    margin-left: 35%; }
+    .contact .content-area .img-container {
+      display: inline-block;
+      width: 30%;
+      height: 100%; }
+      .contact .content-area .img-container .user-img {
+        left: -175px;
+        top: 56px;
+        width: 350px;
+        height: calc(100% - 112px); }
+    .contact .content-area .profile-section {
+      max-width: 370px;
+      padding: 30% 0 0 5%; } }
+
+@media (min-width: 1200px) {
+  .contact .info-section {
+    max-width: 425px; }
+  .contact .content-area {
+    margin-left: 400px;
+    width: calc(100% - 400px); }
+    .contact .content-area .contact-section {
+      position: absolute;
+      left: 48%; }
+    .contact .content-area .profile-section {
+      padding: 250px 0 0 1%; } }
 
 * {
   box-sizing: border-box; }

@@ -148,6 +148,7 @@
       overflow-y: scroll;
       padding: 0 10px;
       .form-container{
+        max-height: 700px;
         width: 100%;
         .form-section{
           width: 100%;
@@ -156,6 +157,7 @@
         }
       }
       .contact-section{
+        position: absolute;
         width: 100%;
         .contact-info{
           h1{}
@@ -168,6 +170,70 @@
             }
           }
         }
+      }
+    }
+  }
+}
+
+//laptops
+@media (min-width: 768px)  {
+  .contact{
+    .info-section{
+      .logo {
+        display: none;
+      }
+      .info-box{
+        display: none;
+      }
+    }
+  }
+}
+//laptop
+@media (min-width: 992px)  {
+  .contact{
+    .info-section{
+      .logo{
+        display: flex;
+      }
+      .info-box{
+        display: inline-block;
+      }
+    }
+    .content-area{
+        width: 65%;
+        margin-left: 35%;
+          .img-container{
+            display: inline-block;
+            width: 30%;
+            height: 100%;
+            .user-img{
+              left: -175px;
+              top: 56px;
+              width: 350px;
+              height: calc(100% - 112px);
+            }
+          }
+        .profile-section{
+          max-width: 370px;
+          padding: 30% 0 0 5%;
+        }
+    }
+  }
+}
+@media (min-width: 1200px){
+  .contact{
+    .info-section{
+      max-width: 425px;
+    }
+    .content-area{
+      .contact-section{
+        position: absolute;
+        left: 48%;
+      }
+      margin-left: 400px;
+      width: calc(100% - 400px);
+      .profile-section{
+        padding: 250px 0 0 1%;
       }
     }
   }
