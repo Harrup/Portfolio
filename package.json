@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "express": "^4.16.3",
     "node-sass": "^4.9.0",
     "serve-static": "^1.13.2"
   },
