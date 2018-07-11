@@ -38,9 +38,19 @@
           box-shadow: 14px 16px 157px -15px rgba(10,10,10,0.56);
         }
         .col-md-4{
+          .prj1{
+            background: url('../img/YelpCamp.png') no-repeat center center;
+          }
+          .prj2{
+            background: url('../img/Aspiration.png') no-repeat center center;
+          }
+          .prj3{
+            background: url('../img/Color Guess Game.png') no-repeat center center;
+          }
           .project-img{
             height: 80%;
             width: 100%;
+            background-size: cover;
           }
           }
           .col-md-7{

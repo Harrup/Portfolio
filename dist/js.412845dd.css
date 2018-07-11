@@ -200,6 +200,8 @@
       font-weight: 300; }
       .resume .content-area .scroll-section .row .skills-panel .skill-list li {
         padding-bottom: 3px; }
+    .resume .content-area .scroll-section .resume-btn {
+      margin-left: 45%; }
 
 @media (max-width: 767px) {
   .resume .info-section {
@@ -274,9 +276,16 @@
       -webkit-box-shadow: 14px 16px 157px -15px rgba(10, 10, 10, 0.56);
       -moz-box-shadow: 14px 16px 157px -15px rgba(10, 10, 10, 0.56);
       box-shadow: 14px 16px 157px -15px rgba(10, 10, 10, 0.56); }
+    .portfolio .content-area .scroll-section .row .col-md-4 .prj1 {
+      background: url("YelpCamp.253ed935.png") no-repeat center center; }
+    .portfolio .content-area .scroll-section .row .col-md-4 .prj2 {
+      background: url("Aspiration.39c79563.png") no-repeat center center; }
+    .portfolio .content-area .scroll-section .row .col-md-4 .prj3 {
+      background: url("Color Guess Game.2d26e3f8.png") no-repeat center center; }
     .portfolio .content-area .scroll-section .row .col-md-4 .project-img {
       height: 80%;
-      width: 100%; }
+      width: 100%;
+      background-size: cover; }
     .portfolio .content-area .scroll-section .row .col-md-7 a {
       font-size: 1rem; }
     .portfolio .content-area .scroll-section .row .col-md-7 h1 {
