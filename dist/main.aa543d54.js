@@ -103,7 +103,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   // Override the current require with this new one
   return newRequire;
-})({42:[function(require,module,exports) {
+})({55:[function(require,module,exports) {
 var bundleURL = null;
 function getBundleURLCached() {
   if (!bundleURL) {
@@ -133,7 +133,7 @@ function getBaseURL(url) {
 
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],41:[function(require,module,exports) {
+},{}],47:[function(require,module,exports) {
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -164,12 +164,12 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":42}],14:[function(require,module,exports) {
+},{"./bundle-url":55}],14:[function(require,module,exports) {
 
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./../img/YelpCamp.png":25,"./../img/Aspiration.png":36,"./../img/Color Guess Game.png":39,"_css_loader":41}],12:[function(require,module,exports) {
+},{"./../img/YelpCamp.png":44,"./../img/Aspiration.png":45,"./../img/ColorGuessGame.png":60,"_css_loader":47}],57:[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 
@@ -198,7 +198,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '65459' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '65233' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -339,7 +339,7 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.parcelRequire, id);
   });
 }
-},{}],27:[function(require,module,exports) {
+},{}],59:[function(require,module,exports) {
 var getBundleURL = require('./bundle-url').getBundleURL;
 
 function loadBundlesLazy(bundles) {
@@ -416,6 +416,6 @@ LazyPromise.prototype.catch = function (onError) {
   if (this.promise === null) this.promise = new Promise(this.executor);
   return this.promise.catch(onError);
 };
-},{"./bundle-url":42}],0:[function(require,module,exports) {
-var b=require(27);b.load([["YelpCamp.253ed935.png",25],["Aspiration.39c79563.png",36],["Color Guess Game.2d26e3f8.png",39]]);
-},{}]},{},[12,0], null)
+},{"./bundle-url":55}],0:[function(require,module,exports) {
+var b=require(59);b.load([["YelpCamp.253ed935.png",44],["Aspiration.39c79563.png",45],["ColorGuessGame.8111f082.png",60]]);
+},{}]},{},[57,0], null)
