@@ -169,7 +169,7 @@ module.exports = reloadCSS;
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./../img/YelpCamp.png":44,"./../img/Aspiration.png":45,"./../img/ColorGuessGame.png":60,"_css_loader":47}],57:[function(require,module,exports) {
+},{"./../img/Harrup6.jpg":35,"./../img/YelpCamp.png":44,"./../img/Aspiration.png":45,"./../img/ColorGuessGame.png":60,"_css_loader":47}],12:[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 
@@ -198,7 +198,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '65233' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '53736' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -417,5 +417,5 @@ LazyPromise.prototype.catch = function (onError) {
   return this.promise.catch(onError);
 };
 },{"./bundle-url":55}],0:[function(require,module,exports) {
-var b=require(59);b.load([["YelpCamp.253ed935.png",44],["Aspiration.39c79563.png",45],["ColorGuessGame.8111f082.png",60]]);
-},{}]},{},[57,0], null)
+var b=require(59);b.load([["Harrup6.b4da74b4.jpg",35],["YelpCamp.253ed935.png",44],["Aspiration.39c79563.png",45],["ColorGuessGame.8111f082.png",60]]);
+},{}]},{},[12,0], null)

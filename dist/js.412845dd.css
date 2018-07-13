@@ -70,7 +70,7 @@
       top: 56px;
       width: 350px;
       height: calc(100% - 112px);
-      background: url(https://images.unsplash.com/photo-1515462277126-2dd0c162007a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b9b8ca05b253e33c9009832bca8d68c0&auto=format&fit=crop&w=800&q=60) no-repeat center center;
+      background: url("Harrup6.b4da74b4.jpg") no-repeat center center;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
@@ -200,6 +200,10 @@
       font-weight: 300; }
       .resume .content-area .scroll-section .row .skills-panel .skill-list li {
         padding-bottom: 3px; }
+    .resume .content-area .scroll-section .paragraph {
+      text-align: center;
+      font-weight: 300;
+      font-size: 0.9rem; }
     .resume .content-area .scroll-section .resume-btn {
       margin-left: 45%; }
 
@@ -391,186 +395,6 @@
       font-size: 1rem; }
     .portfolio .content-area .scroll-section .row .col-md-7 .ghost-btn {
       padding: 7px 18px; } }
-
-.contact .info-section {
-  padding: 56px;
-  width: 35%; }
-
-.contact .content-area {
-  width: 65%;
-  height: 100%;
-  background: #fefdfb;
-  margin-left: 35%; }
-  .contact .content-area .form-container {
-    display: inline-block;
-    width: 30%;
-    position: relative;
-    height: 100%; }
-    .contact .content-area .form-container .form-section {
-      overflow-y: scroll;
-      overflow-x: hidden;
-      position: absolute;
-      left: -200px;
-      top: 56px;
-      width: 400px;
-      height: calc(100% - 112px);
-      background: #272727;
-      color: #fefdfb;
-      padding: 46px;
-      -webkit-box-shadow: 14px 16px 157px -15px rgba(10, 10, 10, 0.56);
-      -moz-box-shadow: 14px 16px 157px -15px rgba(10, 10, 10, 0.56);
-      box-shadow: 14px 16px 157px -15px rgba(10, 10, 10, 0.56); }
-      .contact .content-area .form-container .form-section h2 {
-        text-align: center;
-        text-transform: capitalize;
-        font-size: 1.2rem;
-        font-weight: 400;
-        letter-spacing: 3px;
-        padding-bottom: 40px;
-        font-weight: 300;
-        line-height: 1.2;
-        color: #fefdfb; }
-      .contact .content-area .form-container .form-section input, .contact .content-area .form-container .form-section textarea {
-        outline: none;
-        line-height: 1.4;
-        padding: 8px 5px;
-        font-size: 0.8rem;
-        color: #fefdfb;
-        letter-spacing: 2px;
-        font-weight: 300;
-        margin-bottom: 3rem;
-        width: 100%;
-        background: transparent;
-        border: none;
-        border-bottom: 2px solid #a9a9a9; }
-      .contact .content-area .form-container .form-section button {
-        outline: none;
-        background: #5868e8;
-        border: none;
-        font-size: .8rem;
-        color: #fefdfb;
-        text-transform: uppercase;
-        width: 100%;
-        border-radius: 30px;
-        padding: 10px 22px;
-        transition: all 0.3s ease-in-out;
-        text-decoration: none;
-        text-align: center;
-        letter-spacing: 3px;
-        font-weight: 300; }
-        .contact .content-area .form-container .form-section button:hover {
-          background-color: #E9B200; }
-  .contact .content-area .contact-section {
-    max-width: 600px;
-    float: right;
-    display: inline-block;
-    vertical-align: top;
-    padding: 56px 0 0 5%;
-    width: 70%; }
-    .contact .content-area .contact-section .contact-info {
-      max-width: 500px; }
-      .contact .content-area .contact-section .contact-info h1 {
-        font-size: 2.3rem;
-        font-weight: 400;
-        letter-spacing: 3px;
-        line-height: 1.2;
-        margin: 0 0 2rem 20%;
-        border-bottom: 2px solid #E9B200;
-        width: 150px; }
-      .contact .content-area .contact-section .contact-info .contact-box {
-        padding: 30px 30px 15px 30px;
-        margin: 10px 10px 10px 20%;
-        transition: all 0.5s ease-in-out;
-        cursor: pointer; }
-        .contact .content-area .contact-section .contact-info .contact-box:hover {
-          background-color: rgba(255, 255, 255, 0.5);
-          -webkit-box-shadow: 14px 16px 157px -15px rgba(10, 10, 10, 0.56);
-          -moz-box-shadow: 14px 16px 157px -15px rgba(10, 10, 10, 0.56);
-          box-shadow: 14px 16px 157px -15px rgba(10, 10, 10, 0.56); }
-        .contact .content-area .contact-section .contact-info .contact-box h5 {
-          font-size: 1.1rem;
-          margin: 0 0 1.5rem;
-          font-weight: 400; }
-        .contact .content-area .contact-section .contact-info .contact-box p {
-          color: #a9a9a9;
-          line-height: 1.4;
-          margin: 0 0 2rem 0;
-          font-weight: 300; }
-
-@media (max-width: 767px) {
-  .contact .info-section {
-    height: 20%;
-    padding: 54px;
-    position: static; }
-    .contact .info-section .logo {
-      font-size: .8rem;
-      height: 50px;
-      width: 85px;
-      position: absolute;
-      top: 50px;
-      left: 27px; }
-    .contact .info-section .info-box {
-      display: none; }
-  .contact .content-area {
-    width: 100%;
-    height: 100%;
-    margin-left: 0;
-    overflow-y: scroll;
-    padding: 0 10px; }
-    .contact .content-area .form-container {
-      max-height: 700px;
-      width: 100%; }
-      .contact .content-area .form-container .form-section {
-        width: 100%;
-        left: 0px;
-        height: auto; }
-    .contact .content-area .contact-section {
-      position: absolute;
-      width: 100%; }
-      .contact .content-area .contact-section .contact-info .contact-box h5 {
-        font-size: 1rem; }
-      .contact .content-area .contact-section .contact-info .contact-box p {
-        font-size: 0.8rem; } }
-
-@media (min-width: 768px) {
-  .contact .info-section .logo {
-    left: 40px;
-    display: none; }
-  .contact .info-section .info-box {
-    display: none; } }
-
-@media (min-width: 992px) {
-  .contact .info-section .logo {
-    display: flex; }
-  .contact .info-section .info-box {
-    display: inline-block; }
-  .contact .content-area {
-    width: 65%;
-    margin-left: 35%; }
-    .contact .content-area .img-container {
-      display: inline-block;
-      width: 30%;
-      height: 100%; }
-      .contact .content-area .img-container .user-img {
-        left: -175px;
-        top: 56px;
-        width: 350px;
-        height: calc(100% - 112px); }
-    .contact .content-area .profile-section {
-      max-width: 370px;
-      padding: 30% 0 0 5%; } }
-
-@media (min-width: 1200px) {
-  .contact .info-section {
-    max-width: 425px; }
-  .contact .content-area {
-    margin-left: 435px;
-    width: calc(100% - 435px); }
-    .contact .content-area .contact-section {
-      position: absolute;
-      left: 48%; }
-    .contact .content-area .profile-section {
-      padding: 250px 0 0 1%; } }
 
 * {
   box-sizing: border-box; }
