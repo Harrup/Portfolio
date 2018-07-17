@@ -164,12 +164,12 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":55}],14:[function(require,module,exports) {
+},{"./bundle-url":55}],2:[function(require,module,exports) {
 
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./../img/Harrup6.jpg":35,"./../img/YelpCamp.png":44,"./../img/Aspiration.png":45,"./../img/ColorGuessGame.png":60,"_css_loader":47}],15:[function(require,module,exports) {
+},{"./../img/Harrup6.jpg":35,"./../img/YelpCamp.png":44,"./../img/Aspiration.png":45,"./../img/Mohos_Eatery.png":29,"./../img/ColorGuessGame.png":60,"_css_loader":47}],15:[function(require,module,exports) {
 "use strict";
 
 require("../scss/main.scss");
@@ -190,7 +190,7 @@ function removeMenu() {
   menu.classList.remove("active");
   //bars.style.opacity="1";
 }
-},{"../scss/main.scss":14}],12:[function(require,module,exports) {
+},{"../scss/main.scss":2}],35:[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 
@@ -219,7 +219,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '53736' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '64585' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -438,6 +438,6 @@ LazyPromise.prototype.catch = function (onError) {
   return this.promise.catch(onError);
 };
 },{"./bundle-url":55}],0:[function(require,module,exports) {
-var b=require(59);b.load([["Harrup6.b4da74b4.jpg",35],["YelpCamp.253ed935.png",44],["Aspiration.39c79563.png",45],["ColorGuessGame.8111f082.png",60]]).then(function(){require(15);});
-},{}]},{},[12,0], null)
+var b=require(59);b.load([["Harrup6.b4da74b4.jpg",35],["YelpCamp.253ed935.png",44],["Aspiration.39c79563.png",45],["Mohos_Eatery.89242a91.png",29],["ColorGuessGame.8111f082.png",60]]).then(function(){require(15);});
+},{}]},{},[35,0], null)
 //# sourceMappingURL=/js.412845dd.map
