@@ -280,6 +280,8 @@
       -webkit-box-shadow: 14px 16px 157px -15px rgba(10, 10, 10, 0.56);
       -moz-box-shadow: 14px 16px 157px -15px rgba(10, 10, 10, 0.56);
       box-shadow: 14px 16px 157px -15px rgba(10, 10, 10, 0.56); }
+    .portfolio .content-area .scroll-section .row .col-md-4 .prj0 {
+      background: url("Toku.d493905f.png") no-repeat center center; }
     .portfolio .content-area .scroll-section .row .col-md-4 .prj1 {
       background: url("YelpCamp.253ed935.png") no-repeat center center; }
     .portfolio .content-area .scroll-section .row .col-md-4 .prj2 {
@@ -291,7 +293,7 @@
     .portfolio .content-area .scroll-section .row .col-md-4 .project-img {
       height: 80%;
       width: 100%;
-      background-size: cover; }
+      background-size: 100%; }
     .portfolio .content-area .scroll-section .row .col-md-7 a {
       font-size: 1rem; }
     .portfolio .content-area .scroll-section .row .col-md-7 h1 {

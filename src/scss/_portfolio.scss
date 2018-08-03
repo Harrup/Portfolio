@@ -38,6 +38,9 @@
           box-shadow: 14px 16px 157px -15px rgba(10,10,10,0.56);
         }
         .col-md-4{
+          .prj0{
+            background: url('../img/Toku.png') no-repeat center center;
+          }
           .prj1{
             background: url('../img/YelpCamp.png') no-repeat center center;
           }
@@ -53,7 +56,7 @@
           .project-img{
             height: 80%;
             width: 100%;
-            background-size: cover;
+            background-size: 100%;
           }
           }
           .col-md-7{
